@@ -11,9 +11,9 @@ class Add
 	public static int sum(int a,int b)
 	{
 		int total=0;
-		for(int i=a;i<=b;i++)
+		for(int j=a;j<=b;j++)
 		{
-			total+=i;
+			total+=j;
 		}
 		return total;
 	}
