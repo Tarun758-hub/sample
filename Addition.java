@@ -10,11 +10,11 @@ class Addition
 	}
 	public static int sum(int a,int b)
 	{
-		int total=0;
+		int sum1=0;
 		for(int i=a;i<=b;i++)
 		{
-			total+=i;
+			sum1+=i;
 		}
-		return total;
+		return sum1;
 	}
 }
